@@ -13,7 +13,7 @@ To handle the challenges, we scaled the data and decreased users and items. We u
 
 # Data
 
-The data provided contains information about articles of clothing, customers, and transactions. There were 105,542 articles of clothing with descriptions about name, color, appearance, and departments. There were 1,371,980 unique customers with information about age and location. In the transactions data, there were 31,788,324 transactions from September 20, 2018 to September 22, 2022. Transaction data contained the customer, article, price, and whether the customer purchased online or in store. The data did not include ratings; therefore, we used the number of purchases by a customer of an article as a proxy for how the customer would have rated the item.
+The data provided contains information about articles of clothing, customers, and transactions. There were 105,542 articles of clothing with descriptions about name, color, appearance, and departments. There were 1,371,980 unique customers with information about age and location. In the transactions data, there were 31,788,324 transactions from September 20, 2018 to September 22, 2022. Transaction data contained the customer, article, price, and whether the customer purchased online or in store. The data did not include ratings; therefore, we used the number of purchases by a customer of an article as a proxy for how the customer would have rated the item. We built a [data dictionary](https://github.com/mattflaherty97/hm-sna-project/blob/main/data_dictionary.xlsx) for better understanding of the variables.
 
 # Methods
 
