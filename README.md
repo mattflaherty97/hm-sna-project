@@ -33,4 +33,4 @@ User-based collaborative filtering predicts the rating for a user on an item giv
 
 # Results
 
-We achieved results for both methods. The user-based collaborative filtering was easiest to implement and context independent. The notebook with the analysis and results can be found [here](https://github.com/mattflaherty97/hm-sna-project/blob/main/product_based_collaborative_filtering.ipynb) However, the item-based collaborative filtering used an item-item matrix and recommends based on similar items.
+We achieved results for both methods. The user-based collaborative filtering was easiest to implement and context independent. The notebook with the analysis and results can be found [here](https://github.com/mattflaherty97/hm-sna-project/blob/main/product_based_collaborative_filtering.ipynb) However, the item-based collaborative filtering used an item-item matrix and recommends based on similar items. The results can be found [here](https://github.com/mattflaherty97/hm-sna-project/blob/main/user-based-filtering.ipynb)
