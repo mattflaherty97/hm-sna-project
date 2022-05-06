@@ -23,10 +23,13 @@ We used two methods to create our recommendation systems: item-based and user-ba
 
 Item-based collaborative filtering predicts similar items based on the items users have already purchased. The model recommends an item based on items that the user has previously consumed. The model then looks for the items that the user has purchased then it finds other items similar to purchased items to recommend.
 
+![Equation](https://latex.codecogs.com/svg.image?pred(u,i)&space;=&space;\frac{\sum_{j\in&space;ratedItems(u)}^{}&space;sim(i,j)&space;*&space;(r_{uj})}{\sum_{j\in&space;ratedItems(u)}^{}&space;sim(i,j)})
+
 ## User-based
 
 User-based collaborative filtering predicts the rating for a user on an item given how other users in the neighborhood have rated the item. In order to find the neighbors in a user's neighborhood, we used cosine similarity to sort each user's neighbors from most similar to least similar.
 
+![Equation](https://latex.codecogs.com/svg.image?pred(u,i)&space;=&space;\overline{r}_{u}&space;&plus;&space;\frac{\sum_{n\in&space;neighbors(u)}^{}&space;sim(u,n)&space;*&space;(r_{ni}&space;-&space;\overline{r}_{n})}{\sum_{n\in&space;neighbors(u)}^{}&space;sim(u,n)})
 
 # Results
 
